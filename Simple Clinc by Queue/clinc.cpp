@@ -27,6 +27,7 @@ int main()
         cout << "Book New an appointment y/n" << endl;
         cin >> choice;
     } while (choice == 'y' || choice == 'Y');
+    // to add Appointment 
     cout << "List of Appointments? (y/n): "<<endl;
     cin >> choice;
 
@@ -39,6 +40,7 @@ int main()
     {
         cout << "No Appointments" << endl;
     }
+    // to Display next Patient
     cout << "Next Patient (y/n)?" << endl;
     cin >> choice;
     while (choice == 'y' || choice == 'Y')
@@ -65,6 +67,7 @@ int main()
     else{
         cout<<"No Patients"<<endl;
     }
+    // Search of Patient
 cout<<"Search Patient (y/n)?"<<endl;
     cin>>choice;
     if(choice == 'y' || choice == 'Y')
